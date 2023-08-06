@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="stylenew.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="brandname">
+          <h1>SPAM AND HAM EMAILS MESSAGES DETECTOR</h1>
+        </div>
+      </div>
+    </header>
+    <div class="ml-container">
+      <form action="{{ url_for('predict')}}" method="POST">
+        <p>Enter Your Message Here to predict Spam or Ham</p>
+        <!-- <input type="text" name="comment"/> -->
+        <textarea
+          name="message"
+          rows="3"
+          cols="70"
+          style="padding: 30px"
+        ></textarea>
+        <br />
+        <input type="submit" class="btn-info" value="predict" />
+      </form>
+    </div>
+  </body>
+</html>
