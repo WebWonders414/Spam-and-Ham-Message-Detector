@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html><head>
+<title></title> <link rel="stylesheet" type="text/css" href="static/style.css"> </head> <body>
+<header>
+<div class="container">
+<div id="brandname">
+<h1>RESULT FOR SPAM AND HAM 
+DETECTOR</div></h1> </div> </div>
+</header>
+<p style="color:black;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+<div class="results">
+{% if prediction == 1%}
+<h2 style="color:red;">Spam</h2>
+{% elif prediction == 0%}
+<h2 style="color:blue;">Not a Spam (It's a Ham Message)</h2>
+{% endif %}</div> </body> </html>

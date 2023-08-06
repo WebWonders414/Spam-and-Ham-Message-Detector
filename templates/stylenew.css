@@ -1,0 +1,62 @@
+body {
+  font-size: 30px;
+  font-family: "Lucida Handwriting", cursive;
+  text-align: center;
+  padding: 0;
+  background-color: powderBlue;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  background: SlateGray;
+  border-bottom: 3px solid white;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.main-header {
+  text-align: center;
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+}
+
+#brandname {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+.btn-info {
+  background-color: gray;
+  height: 50px;
+  font-family: "Copperplate", fantasy;
+  font-size: 25px;
+  border-radius: 8px;
+  width: 100px;
+  /* color: white; */ /* Uncomment this line if you want to set the text color to white */
+}
+
+.btn-info:hover {
+  background: white;
+}
+
+.resultss {
+  border-radius: 15px 50px;
+  background: pink;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
